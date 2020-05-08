@@ -24,7 +24,7 @@ function showTotal(totalConfirm, totalRecov,totalDec) {
 </div>
 
 <br>
-<br><br><br>
+
 </div>
 `
 
@@ -38,8 +38,9 @@ function getData(stateName, confirmCase,  activeCase, deathCase, recoverCase) {
     <tr>
       <th scope="row">${stateName}</th>
       <td>${activeCase}</td>
-      <td>${deathCase}</td>
+      <td>${confirmCase}</td>
       <td>${recoverCase}</td>
+      <td>${deathCase}</td>
     </tr>
       `
       return template;
